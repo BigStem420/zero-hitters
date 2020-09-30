@@ -53,10 +53,20 @@
 
 
 h1 {
-  font-size: 5vw;
+  font-size: 4vw;
   text-align: center;
 }
 
-button{
-margin:0 2rem;
+button {
+  margin: 0 2rem;
+}
+
+@media(max-width: 700px) {
+
+  .s0,
+  .s2,
+  .s4 {
+    display: none;
+
+  }
 }
