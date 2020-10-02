@@ -28,7 +28,7 @@ body {
   /* Collapse borders */
   width: 100%;
   /* Full-width */
-  border: 1px solid #4f2f4f;
+  border: 1px solid #4f4f4f;
   /* Add a grey border */
   font-size: 16px;
   /* Increase font-size */
@@ -50,7 +50,7 @@ body {
 #tableMain tr.header,
 #tableMain tr:hover {
   /* Add a grey background color to the table header and on hover */
-  background-color: #2f4f4f;
+  background-color: #2f2f4f;
 }
 
 
