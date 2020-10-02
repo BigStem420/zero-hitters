@@ -72,11 +72,11 @@ button {
 }
 
 .s1:hover {
-  cursor: pointmoji[0], auto;
+  cursor: 'https://discordapp.com/assets/4c5a77a89716352686f590a6f014770c.svg'auto;
 }
 
 .s3 a {
-  cursor: pointmoji[2], auto;
+  cursor: 'https://discordapp.com/assets/4c5a77a89716352686f590a6f014770c.svg'auto;
 }
 
 .nature {
