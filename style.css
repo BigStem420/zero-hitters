@@ -71,12 +71,12 @@ button {
   font-size: 24px;
 }
 
-.s1:hover {
-  cursor: 'https://discordapp.com/assets/4c5a77a89716352686f590a6f014770c.svg'auto;
+a.s1 {
+  cursor: url('images/eyes.png'), auto;
 }
 
-.s3 a {
-  cursor: 'https://discordapp.com/assets/4c5a77a89716352686f590a6f014770c.svg'auto;
+a.s3 {
+  cursor: url('images/knife.png'), auto;
 }
 
 .nature {
