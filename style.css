@@ -1,23 +1,25 @@
-* {
-  /* border: 1px solid purple; */
+body {
+  color: #b7a7a7;
+  background: #605d63;
 }
 
 #myInput {
+  background-Color: #b7a7a7;
   /* background-image: url('/css/searchicon.png'); */
   /* Add a search icon to input */
   background-position: 10px 12px;
   /* Position the search icon */
   background-repeat: no-repeat;
   /* Do not repeat the icon image */
-  width: 100%;
+  width: 95%;
   /* Full-width */
   font-size: 16px;
   /* Increase font-size */
   padding: 12px 20px 12px 40px;
   /* Add some padding */
-  border: 1px solid #ddd;
+  border: 1px solid #4f4f4f;
   /* Add a grey border */
-  margin-bottom: 12px;
+  margin: 0 auto;
   /* Add some space below the input */
 }
 
@@ -26,7 +28,7 @@
   /* Collapse borders */
   width: 100%;
   /* Full-width */
-  border: 1px solid #ddd;
+  border: 1px solid #4f4f4f;
   /* Add a grey border */
   font-size: 16px;
   /* Increase font-size */
@@ -42,13 +44,13 @@
 
 #tableMain tr {
   /* Add a bottom border to all table rows */
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #2f4f4f;
 }
 
 #tableMain tr.header,
 #tableMain tr:hover {
   /* Add a grey background color to the table header and on hover */
-  background-color: #f1f1f1;
+  background-color: #2f4f4f;
 }
 
 
@@ -61,7 +63,29 @@ button {
   margin: 0 2rem;
 }
 
-@media(max-width: 700px) {
+.s3 {
+  font-size: 36px;
+}
+
+.column-headers-background.s3 {
+  font-size: 24px;
+}
+
+.s1:hover {
+  cursor: pointmoji[0], auto;
+}
+
+.s3 a {
+  cursor: pointmoji[2], auto;
+}
+
+.nature {
+  cursor: url("/uploads/media/default/0001/02/edcafd9e202ae5f2ae6ae839d21d1d642b2ace00.png"), auto;
+}
+
+
+
+@media(max-width: 850px) {
 
   .s0,
   .s2,
@@ -70,3 +94,5 @@ button {
 
   }
 }
+
+@media (max-width:600px) {}
