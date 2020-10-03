@@ -1,11 +1,16 @@
 body {
-  color: #b7a7a7;
-  background: #605d63;
+  color: #e2e2e2;
+  background: #00646F;
+}
+
+#myInput::placeholder{
+  color: #002428
 }
 
 #myInput {
-  background-Color: #b7a7a7;
+  background-Color: #00C0D5;
   /* background-image: url('/css/searchicon.png'); */
+  color: #003D44
   /* Add a search icon to input */
   background-position: 10px 12px;
   /* Position the search icon */
@@ -17,18 +22,23 @@ body {
   /* Increase font-size */
   padding: 12px 20px 12px 40px;
   /* Add some padding */
-  border: 1px solid #4f4f4f;
+  border: 1px solid #002428;
   /* Add a grey border */
   margin: 0 auto;
   /* Add some space below the input */
 }
-
+.buttons {
+  display:flex;
+  width: 95%;
+  justify-content: space-evenly;
+  margin: 3rem 0 0;
+}
 #tableMain {
   border-collapse: collapse;
   /* Collapse borders */
   width: 100%;
   /* Full-width */
-  border: 1px solid #4f4f4f;
+  border: 1px solid #002428;
   /* Add a grey border */
   font-size: 16px;
   /* Increase font-size */
@@ -44,12 +54,12 @@ body {
 
 #tableMain tr {
   /* Add a bottom border to all table rows */
-  border-bottom: 1px solid #2f4f4f;
+  border-bottom: 1px solid #002428;
 }
 
 #tableMain tr:hover {
   /* Add a grey background color to the table header and on hover */
-  background-color: #2f4f4f;
+  background-color: #003D44;
 }
 
 
