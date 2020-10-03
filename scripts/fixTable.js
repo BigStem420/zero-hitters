@@ -1,10 +1,10 @@
 // function fixTable() {
 
-let theTable = document.getElementById("tableMain").getElementsByTagName('tbody')[0]
+let theTable = document.getElementById("theTable").getElementsByTagName('tbody')[0]
 // let elements = theTable.querySelectorAll('a:nth-of-type(even)')
 
 function changeIt() {
-  for (let i = 0; i < theTable.rows.length; i++) {
+  for (let i = 0; i < /*theTable.rows.length*/20; i++) {
     (function (i) {
       setTimeout(function () {
         let row = theTable.rows[i]
