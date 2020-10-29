@@ -4,7 +4,7 @@ let theTable = document.getElementById("theTable").getElementsByTagName('tbody')
 // let elements = theTable.querySelectorAll('a:nth-of-type(even)')
 
 function changeIt() {
-  for (let i = 0; i < /*theTable.rows.length*/20; i++) {
+  for (let i = 0; i < theTable.rows.length; i++) {
     (function (i) {
       setTimeout(function () {
         let row = theTable.rows[i]
