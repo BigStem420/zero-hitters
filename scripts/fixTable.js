@@ -20,7 +20,7 @@ function changeIt() {
         theTable.rows[i].cells[3].innerHTML =
           `<a href='https://www.torn.com/loader2.php?sid=getInAttack&user2ID=${userId}'>${attack}</a>`
         theTable.rows[i].cells[1].innerHTML = `<a href= 'https://www.torn.com/profiles.php?XID=${userId}'><img src ='https://www.torn.com/signature.php?id=14&user=${userId}'></a>`
-      }, 1000 * i)
+      }, 2000 * i)
     })(i)
   }
 
