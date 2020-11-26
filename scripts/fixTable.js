@@ -19,9 +19,9 @@ function changeIt() {
     let row = theTable.rows[i]
     let userName = row.textContent.trim()
     let name = userName.split(' ')[0]
-    console.log('name: ', name)
+    // console.log('name: ', name)
     let attribute = row.querySelector('a')
-    console.log('attribute: ', attribute)
+    // console.log('attribute: ', attribute)
 
     attribute = attribute.toString()
     let pathArray = attribute.split('=')
