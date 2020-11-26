@@ -68,8 +68,16 @@ h1 {
   text-align: center;
 }
 
-button {
+.search button {
   margin: 0 2rem;
+}
+
+.s0, .s1, .s2, .s3, .s4, .s5, .s6 {
+  text-align: center
+}
+
+.s0 {
+  display: none;
 }
 
 .s3 {
@@ -81,18 +89,21 @@ button {
 }
 
 a.s1 {
-  cursor: url('images/eyes.png');
+  cursor: url('./images/eyes.png'), auto;
 }
 
-a.s3 {
+.s3 a {
   cursor: url('images/knife.png'), auto;
 }
 
+.s
 .nature {
   cursor: url("/uploads/media/default/0001/02/edcafd9e202ae5f2ae6ae839d21d1d642b2ace00.png"), auto;
 }
 
-
+.not-sortable {
+  
+}
 
 @media(max-width: 850px) {
 

@@ -18,23 +18,25 @@
 
   <h1>Zero Hitters 2020</h1>
 
-  <input type="text" id="myInput" style="placeholder-color: #002428"
-    placeholder="Search for something...they must be in here...you'll never know until you try to look!">
+  <div class=search>
+  <input type="text" id="myInput" placeholder="Search for something...they must be in here...you'll never know until you try to look!">
   <br><div class ="buttons"><button id="searchButton button" onclick="toSearch()">Search</button><button id="resetButton button" onclick="searchReset()">Reset</button></div>
+  </div>
   <br><br>
   <table class="searchable sortable" id="theTable" cellspacing="0" cellpadding="0">
 
     <thead>
       <tr class="row">
         <th class="row-header freezebar-origin-ltr s0" style="width:10px"></th>
-        <th id="1174180806C0" style="width:350px" class="column-headers-background sorttable_sorted s1" style=>Moocher
+        <th id="1174180806C0" style="width:250px" class="column-headers-background  s1" style=>Moocher
           Scumbag's
-          Profile<span id="sorttable_sortfwdind">&nbsp;▾</span></th>
-        <th id="1174180806C1" style="width:250px" class="column-headers-background s2"></th>
+          Profile</th>
+        <th id="1174180806C1" style="width:250px" class="not-sortable column-headers-background s2">Douchebag's Name</th>
         <th id="1174180806C2" style="width:150px" class="column-headers-background s3">Attack Link!!</th>
         <th id="1174180806C3" style="width:75px" class="column-headers-background s4">Level</th>
-        <th id="1174180806C4" style="width:250px" class="column-headers-background s5">Stat Estimate</th>
-        <th id="1174180806C5" style="width:400px" class="column-headers-background s6">Team they<br> SCREWED</th>
+        <th id="1174180806C4" style="width:250px" class="not-sortable column-headers-background s5">Stat Estimate</th>
+        <th id="1174180806C5" style="width:400px" class="not-sortable column-headers-background s6">Team they<br> SCREWED</th>
+        <!-- <th class="row-header freezebar-origin-ltr s7" style="width:75px">Team</th> -->
       </tr>
     </thead>
     <tbody>
